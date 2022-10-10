@@ -1,0 +1,237 @@
+:root {
+    --osnova-text-color :  #757575;
+    --two-text-color: #212121;
+    --background-color: #2196F3;
+    --active-color: #FFFFFF;
+    --dont-active-color: #F5F4FA;
+    --background-h1-color: #2F303A;
+    --color-footer-last:  rgba(255, 255, 255, 0.6);
+    --button-active: #188CE8
+}
+
+body {
+    background-color: var(--active-color);
+    color: var(--osnova-text-color);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin: 0;
+}
+h1
+h2
+h3
+h4
+h5
+h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondary-title {
+    color: var(--two-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.name-company {
+    color: var(--two-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.logo:active
+.logo:hover
+.logo:focus
+.logo:visited {
+    color: var(--background-color);
+}
+.logo-span:active
+.logo-span:hover
+.logo-span:focus
+.logo-span:visited {
+    color: var(--two-text-color);
+}
+.logo {
+    color:var(--background-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-span {
+    color: var(--two-text-color);
+}
+.studio:hover {
+    color: var(--background-color);
+}
+.studio:focus {
+    color: var(--background-color);
+}
+.studio {
+    color: var(--two-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+}
+.nomer {
+    color:var(--osnova-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+}
+.nomer:hover{
+    color: var(--background-color);
+}
+.nomer:focus
+.nomer:active{
+    color: var(--background-color);
+}
+.main-header {
+    color: var(--active-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.header-studio {
+    background-color: var(--background-h1-color) ;
+}
+.button-studio {
+    background-color:var(--background-color);
+    color: var(--active-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer
+}
+.button-studio:hover,
+.button-studio:focus,
+.button-studio:active {
+    background-color:var(--button-active)
+}
+.text-benefits {
+    font-size: 14px;
+    line-height: 1.71;
+}
+.name-comand{
+    color: var(--two-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.text-comand {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.footer-span {
+    color: var(--active-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.footer {
+    background-color: var(--background-h1-color);
+}
+.footer-adress {
+    color: var(--active-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+    color: var(--background-color);
+}
+.phone {
+    color: var(--color-footer-last);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+a{
+    text-decoration: none;
+    }
+    a:hover{
+    text-decoration: none;
+    }
+    a:active{
+    text-decoration: none;
+    }
+.phone:hover,
+.phone:focus,
+.phone:active {
+    color: var(--background-color);
+}
+.current {
+    color:var(--background-color)
+}
+.button-filter {
+    color: var(--two-text-color);
+    background-color: var(--dont-active-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active{
+    color: var(--active-color);
+    background-color: var(--background-color);
+}
+.name-port {
+    color: var(--two-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.text-port {
+    color: var(--osnova-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+.comand{
+    background-color: var(--dont-active-color);
+}
+.li-comand {
+    background-color: var(--active-color);
+}
+.nomer:hover,
+.nomer:focus{
+    color: var(--background-color);
+}
+.visual-hiden { position: absolute; white-space: nowrap; width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; clip: rect(0 0 0 0); clip-path: inset(50%); margin: -1px; }
+
