@@ -13,56 +13,61 @@
 </head>
 <body>
     <header class="hat">
-        <!--Шапка сторінки-->
+        <div class="container main-nav">
+            <!--Шапка сторінки-->
         <a href="/index.html" class="logo logo-h">Web<span class="logo-span logo-spah">Studio</span></a>
         <!--Навігація по сайту-->
         <nav class="nav">
-            <ul>
-                <li class="list-studio"><a class="studio current" href="./index.html">Студія</a></li>
-                <li class="list-portfolio "><a class="studio" href="./portfolio.html">Портфоліо</a></li>
-                <li class="list-contact "><a class="studio" href="Контакти">Контакти</a></li>
+            <ul class="navigation">
+                <li class="list-studio list"><a class="studio current" href="./index.html">Студія</a></li>
+                <li class="list-portfolio list "><a class="studio" href="./portfolio.html">Портфоліо</a></li>
+                <li class="list-contact list "><a class="studio" href="Контакти">Контакти</a></li>
             </ul>
         </nav>
             <!--Телефон і номер-->
         <ul class="contact">
-            <li class="contact-gmail"><a class="nomer" href="malito:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-tel"><a class="nomer" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contact-gmail list"><a class="nomer" href="malito:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contact-tel list"><a class="nomer" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <main>
         <!--Кнопка і заголовок-->
-        <section class="header-studio section">
-            <h1 class="main-header">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button button-studio" type="button">Замовити послугу</button>
+        <section class="header-studio">
+            <div class="container"><h1 class="main-header">Ефективні рішення для вашого бізнесу</h1>
+            <button class="button button-studio" type="button">Замовити послугу</button></div>
         </section>
         <!--Переваги компанії-->
         <section class="benefits section">
             <h2 class="visual-hiden">Переваги компанії</h2>
-            <ul class="important-benefits">
-                <li class="list-company">
-                    <h3 class="name-company">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="text-benefits">
-                        Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-                    </p>
-                </li>
-                <li class="list-company">
-                    <h3 class="name-company">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="text-benefits">
-                        Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                    </p>
-                </li>
-                <li class="list-company">
-                    <h3 class="name-company">ПЛАНУВАННЯ</h3>
-                    <p class="text-benefits">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li class="list-company">
-                    <h3 class="name-company">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="text-benefits">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="important-benefits">
+                    <li class="list-company">
+                        <h3 class="name-company">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="text-benefits">
+                            Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                        </p>
+                    </li>
+                    <li class="list-company">
+                        <h3 class="name-company">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="text-benefits">
+                            Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                        </p>
+                    </li>
+                    <li class="list-company">
+                        <h3 class="name-company">ПЛАНУВАННЯ</h3>
+                        <p class="text-benefits">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li class="list-company">
+                        <h3 class="name-company">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="text-benefits">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--Чим компанія займається-->
         <section class="engage section">
+            <div class="container">
             <h2 class="engane-me secondary-title">Чим ми займаємося</h2>
             <ul class="engane-important">
                 <li class="list-work">
@@ -83,46 +88,50 @@
                     <img src="images/img(2).jpg" alt="Планшет дизайнера" width="370">
                 </li>
             </ul>
+            </div>
         </section>
         <!--Команда-->
         <section class="comand section">
-            <h2 class="comand-me secondary-title">Наша команда</h2>
-            <ul class="comand-important">
-                <li class="list-comand">
-                    <img src="images/img-3(1).jpg"
-                    alt="чоловік в окулярах усміхається"
-                    width="270"
-                    >
-                    <h3 class="ihor name-comand">Ігор Дем'яненко</h3>
-                    <p class="text-comand">Product Designer</p>
-                </li>
-                <li class="list-comand">
-                    <img src="images/img-2(1).jpg"
-                    alt="Жінка в окулярах усміхається"
-                    width="270"
-                    >
-                    <h3 class="olha name-comand">Ольга Рєпіна</h3>
-                    <p class="text-comand">Frontend Developer</p>
-                </li>
-                <li class="list-comand">
-                    <img
-                    src="images/img-1(1).jpg"
-                    alt="Чоловік усміхається"
-                    width="270"
-                    >
-                    <h3 class="micola name-comand">Микола Тарасов</h3>
-                    <p class="text-comand">Marketing</p>
-                </li>
-                <li class="list-comand">
-                    <img
-                    src="images/img-(1).jpg"
-                    alt="Чоловік в окулярах усміхається"
-                    width="270"
-                    >
-                    <h3 class="michael name-comand">Михайло Єрмаков</h3>
-                    <p class="text-comand">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="comand-me secondary-title">Наша команда</h2>
+                <ul class="comand-important">
+                    <li class="list-comand">
+                        <img src="images/img-3(1).jpg"
+                        alt="чоловік в окулярах усміхається"
+                        width="270"
+                        >
+                        <h3 class="ihor name-comand">Ігор Дем'яненко</h3>
+                        <p class="text-comand">Product Designer</p>
+                    </li>
+                    <li class="list-comand">
+                        <img src="images/img-2(1).jpg"
+                        alt="Жінка в окулярах усміхається"
+                        width="270"
+                        >
+                        <h3 class="olha name-comand">Ольга Рєпіна</h3>
+                        <p class="text-comand">Frontend Developer</p>
+                    </li>
+                    <li class="list-comand">
+                        <img
+                        src="images/img-1(1).jpg"
+                        alt="Чоловік усміхається"
+                        width="270"
+                        >
+                        <h3 class="micola name-comand">Микола Тарасов</h3>
+                        <p class="text-comand">Marketing</p>
+                    </li>
+                    <li class="list-comand">
+                        <img
+                        class="comand-img"
+                        src="images/img-(1).jpg"
+                        alt="Чоловік в окулярах усміхається"
+                        width="270"
+                        >
+                        <h3 class="michael name-comand">Михайло Єрмаков</h3>
+                        <p class="text-comand">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Підвал-->

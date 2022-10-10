@@ -8,6 +8,12 @@
     --color-footer-last:  rgba(255, 255, 255, 0.6);
     --button-active: #188CE8
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: var(--active-color);
@@ -19,7 +25,7 @@ li {
     list-style-type: none;
 }
 ul {
-    margin: 0;
+    margin: 0px;
 }
 h1
 h2
@@ -27,10 +33,14 @@ h3
 h4
 h5
 h6 {
-    margin: 0;
+    margin: 0px;
 }
 p {
-    margin: 0;
+    margin: 0px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .container {
     width: 1200px;
@@ -51,6 +61,9 @@ p {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .logo:active
 .logo:hover
@@ -110,9 +123,18 @@ p {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    width: 696px;
+    
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-studio {
     background-color: var(--background-h1-color) ;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    align-items: center;
 }
 .button-studio {
     background-color:var(--background-color);
@@ -125,12 +147,18 @@ p {
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    cursor: pointer
+    cursor: pointer;
+    
+    display: block;
+    border-radius: 4px;
+    border: (var(--background-color));
+    padding: 10px 32px;
+    margin: 0 auto;
 }
 .button-studio:hover,
 .button-studio:focus,
 .button-studio:active {
-    background-color:var(--button-active)
+    background-color: var(--button-active);
 }
 .text-benefits {
     font-size: 14px;
@@ -234,4 +262,72 @@ a{
     color: var(--background-color);
 }
 .visual-hiden { position: absolute; white-space: nowrap; width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; clip: rect(0 0 0 0); clip-path: inset(50%); margin: -1px; }
-
+.hat > .container,
+.navigation,
+.contact{
+    display: flex;
+    align-items: center;
+}
+.navigation .list + .list {
+    margin-left: 50px;
+}
+.contact .list + .list {
+    margin-left: 50px;
+}
+.navigation .studio,
+.contact .nomer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navigation {
+    margin-left: 93px;
+}
+.contact {
+    margin-left: auto;
+}
+.main-nav {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+.list-company {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    margin-right: 30px;
+}
+.important-benefits {
+    display: flex;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.benefits {
+    padding-bottom: 0px;
+}
+.list-company:last-child {
+    margin-right: 0px;
+}
+.engane-me {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.engane-important {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    margin-right: 30px;
+}
+.list-work:last-child{
+    margin-right: 0px;
+}
+.comand-me {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
