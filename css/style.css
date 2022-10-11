@@ -219,7 +219,7 @@ a{
 .phone:active {
     color: var(--background-color);
 }
-.currents {
+.current {
     color:var(--background-color)
 
 }
