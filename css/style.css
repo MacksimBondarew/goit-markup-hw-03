@@ -219,8 +219,9 @@ a{
 .phone:active {
     color: var(--background-color);
 }
-.current {
+.currents {
     color:var(--background-color)
+
 }
 .button-filter {
     color: var(--two-text-color);
