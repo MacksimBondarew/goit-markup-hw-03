@@ -256,11 +256,17 @@ a{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 .text-port {
     color: var(--osnova-text-color);
     font-size: 16px;
     line-height: 1.87;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 .comand{
     background-color: var(--dont-active-color);
@@ -414,4 +420,27 @@ a{
 }
 .list-button:last-child {
     margin-right: 0;
+}
+.list-port {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.port-project {
+    margin-right: 30px;
+    width: 370px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.port-project:nth-child(3n){
+    margin-right: 0px;
+}
+.img-port {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.port-project:nth-last-child(-n+3){
+    margin-bottom: 94px;
 }
